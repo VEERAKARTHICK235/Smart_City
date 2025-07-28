@@ -66,50 +66,8 @@ NLP: Hugging Face Transformers
 
 Data Handling: Pandas, NumPy
 
-## 📂 Project Structure
-smart_city_project/
-├── data/
-│   └── traffic_data.csv
-├── models/
-│   ├── aqi_model.keras
-│   ├── energy_model.keras
-│   └── ... (other .pkl models)
-├── modules/
-│   ├── __init__.py
-│   ├── traffic_control.py
-│   ├── waste_management.py
-│   └── ... (all other module files)
-├── dashboard.py              # The Streamlit web app
-├── main.py                   # Script to train and save models
-├── README.md                 # This file
-└── requirements.txt          # Project dependencies
-## 🚀 Setup and Installation
-Follow these steps to set up and run the project locally.
 
-1. Clone the Repository
-Bash
 
-git clone https://github.com/your-username/smart_city_project.git
-cd smart_city_project
-2. Create and Activate a Virtual Environment (Recommended)
-Windows:
-
-Bash
-
-python -m venv venv
-.\venv\Scripts\activate
-macOS / Linux:
-
-Bash
-
-python3 -m venv venv
-source venv/bin/activate
-3. Install Dependencies
-Install all the required Python libraries using the requirements.txt file.
-
-Bash
-
-pip install -r requirements.txt
 ## ⚡ How to Run
 Running the project is a two-step process.
 
